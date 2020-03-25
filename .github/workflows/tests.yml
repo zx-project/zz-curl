@@ -21,7 +21,7 @@ jobs:
         args: --path zz
     - name: 'Install Z3'
       run: |
-        apt install -y z3
+        sudo apt install -y z3
     - name: 'Test ZZ Curl'
       run: |
         make test
