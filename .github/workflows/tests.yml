@@ -15,12 +15,10 @@ jobs:
     - name: 'Download ZZ'
       run: |
         git clone https://github.com/aep/zz.git
-        cd zz
     - uses: actions-rs/cargo@v1
       with:
         command: install
-        args: --path .
+        args: --path zz
     - name: 'Test ZZ Curl'
       run: |
-        cd ..
         make test
