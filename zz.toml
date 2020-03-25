@@ -1,0 +1,14 @@
+[project]
+version = "0.1.0"
+name = "zz_curl"
+cincludes = []
+cobjects = []
+pkgconfig = []
+cflags = []
+lflags = [ "-lcurl" ]
+
+[variants]
+default = []
+
+[dependencies]
+err = "*"
