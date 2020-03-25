@@ -1,0 +1,25 @@
+name: Tests
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: 'Download ZZ'
+      run: |
+        git clone git@github.com:aep/zz.git
+        cd zz
+    - uses: actions-rs/cargo@v1
+      with:
+        command: install --path .
+    - name: 'Test ZZ Curl'
+      run: |
+        cd ..
+        make test
