@@ -18,7 +18,8 @@ jobs:
         cd zz
     - uses: actions-rs/cargo@v1
       with:
-        command: install --path .
+        command: install
+        args: --path .
     - name: 'Test ZZ Curl'
       run: |
         cd ..
