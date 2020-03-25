@@ -13,7 +13,7 @@ zz-curl
 
 ## Usage
 
-```c++++
+```c++
 using zz_curl as curl
 
 fn main() -> int {
