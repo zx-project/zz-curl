@@ -253,7 +253,6 @@ fn main() -> int {
   assert(options::SOCKS5_AUTH == (u32) libcurl::CURLOPT_SOCKS5_AUTH);
   assert(options::SSH_COMPRESSION == (u32) libcurl::CURLOPT_SSH_COMPRESSION);
   assert(options::MIMEPOST == (u32) libcurl::CURLOPT_MIMEPOST);
-  assert(options::TIMEVALUE_LARGE == (u32) libcurl::CURLOPT_TIMEVALUE_LARGE);
   assert(options::HAPPY_EYEBALLS_TIMEOUT_MS == (u32) libcurl::CURLOPT_HAPPY_EYEBALLS_TIMEOUT_MS);
   assert(options::RESOLVER_START_FUNCTION == (u32) libcurl::CURLOPT_RESOLVER_START_FUNCTION);
   assert(options::RESOLVER_START_DATA == (u32) libcurl::CURLOPT_RESOLVER_START_DATA);
