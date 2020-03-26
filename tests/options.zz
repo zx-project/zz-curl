@@ -100,7 +100,7 @@ fn main() -> int {
   assert(options::UNRESTRICTED_AUTH == (u32) libcurl::CURLOPT_UNRESTRICTED_AUTH);
   assert(options::FTP_USE_EPRT == (u32) libcurl::CURLOPT_FTP_USE_EPRT);
   assert(options::HTTPAUTH == (u32) libcurl::CURLOPT_HTTPAUTH);
-  //assert(options::SSL_CTX_FUNCTION == (u32) libcurl::CURLOPT_SSL_CTX_FUNCTION);
+  assert(options::SSL_CTX_FUNCTION == (u32) libcurl::CURLOPT_SSL_CTX_FUNCTION);
   assert(options::SSL_CTX_DATA == (u32) libcurl::CURLOPT_SSL_CTX_DATA);
   assert(options::FTP_CREATE_MISSING_DIRS == (u32) libcurl::CURLOPT_FTP_CREATE_MISSING_DIRS);
   assert(options::PROXYAUTH == (u32) libcurl::CURLOPT_PROXYAUTH);
@@ -254,14 +254,14 @@ fn main() -> int {
   assert(options::SSH_COMPRESSION == (u32) libcurl::CURLOPT_SSH_COMPRESSION);
   assert(options::MIMEPOST == (u32) libcurl::CURLOPT_MIMEPOST);
   //assert(options::TIMEVALUE_LARGE == (u32) libcurl::CURLOPT_TIMEVALUE_LARGE);
-  assert(options::HAPPY_EYEBALLS_TIMEOUT_MS == (u32) libcurl::CURLOPT_HAPPY_EYEBALLS_TIMEOUT_MS);
-  assert(options::RESOLVER_START_FUNCTION == (u32) libcurl::CURLOPT_RESOLVER_START_FUNCTION);
+  //assert(options::HAPPY_EYEBALLS_TIMEOUT_MS == (u32) libcurl::CURLOPT_HAPPY_EYEBALLS_TIMEOUT_MS);
+  //assert(options::RESOLVER_START_FUNCTION == (u32) libcurl::CURLOPT_RESOLVER_START_FUNCTION);
   //assert(options::RESOLVER_START_DATA == (u32) libcurl::CURLOPT_RESOLVER_START_DATA);
   //assert(options::HAPROXYPROTOCOL == (u32) libcurl::CURLOPT_HAPROXYPROTOCOL);
   //assert(options::DNS_SHUFFLE_ADDRESSES == (u32) libcurl::CURLOPT_DNS_SHUFFLE_ADDRESSES);
-  assert(options::TLS13_CIPHERS == (u32) libcurl::CURLOPT_TLS13_CIPHERS);
-  assert(options::PROXY_TLS13_CIPHERS == (u32) libcurl::CURLOPT_PROXY_TLS13_CIPHERS);
-  assert(options::DISALLOW_USERNAME_IN_URL == (u32) libcurl::CURLOPT_DISALLOW_USERNAME_IN_URL);
+  //assert(options::TLS13_CIPHERS == (u32) libcurl::CURLOPT_TLS13_CIPHERS);
+  //assert(options::PROXY_TLS13_CIPHERS == (u32) libcurl::CURLOPT_PROXY_TLS13_CIPHERS);
+  //assert(options::DISALLOW_USERNAME_IN_URL == (u32) libcurl::CURLOPT_DISALLOW_USERNAME_IN_URL);
   assert(options::DOH_URL == (u32) libcurl::CURLOPT_DOH_URL);
   assert(options::UPLOAD_BUFFERSIZE == (u32) libcurl::CURLOPT_UPLOAD_BUFFERSIZE);
   assert(options::UPKEEP_u32ERVAL_MS == (u32) libcurl::CURLOPT_UPKEEP_INTERVAL_MS);
