@@ -19,9 +19,9 @@ jobs:
       with:
         command: install
         args: --path zz
-    - name: 'Install Z3'
+    - name: 'Install System Dependencies'
       run: |
-        sudo apt install -y z3
+        sudo apt install -y z3 libcurl4 libcurl4-openssl-dev
     - name: 'Test ZZ Curl'
       run: |
         make test
