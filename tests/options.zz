@@ -264,7 +264,7 @@ fn main() -> int {
   //assert(options::DISALLOW_USERNAME_IN_URL == (u32) libcurl::CURLOPT_DISALLOW_USERNAME_IN_URL);
   //assert(options::DOH_URL == (u32) libcurl::CURLOPT_DOH_URL);
   //assert(options::UPLOAD_BUFFERSIZE == (u32) libcurl::CURLOPT_UPLOAD_BUFFERSIZE);
-  assert(options::UPKEEP_INTERVAL_MS == (u32) libcurl::CURLOPT_UPKEEP_INTERVAL_MS);
+  //assert(options::UPKEEP_INTERVAL_MS == (u32) libcurl::CURLOPT_UPKEEP_INTERVAL_MS);
   //assert(options::CURLU == (u32) libcurl::CURLOPT_CURLU);
   //assert(options::TRAILERFUNCTION == (u32) libcurl::CURLOPT_TRAILERFUNCTION);
   //assert(options::TRAILERDATA == (u32) libcurl::CURLOPT_TRAILERDATA);
