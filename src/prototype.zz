@@ -63,7 +63,7 @@ export fntype SendFunction(
 export fntype SetOptFunction(
   void mut *handle,
   u32 opt,
-  void *parameter,
+  void *parameter
 ) -> u8;
 
 /**
@@ -73,7 +73,7 @@ export fntype SetOptFunction(
 export fntype UnescapeFunction(
   void mut *handle,
   char *string,
-  int length
+  int length,
   int mut *out_length
 ) -> char *;
 
