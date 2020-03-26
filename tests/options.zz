@@ -271,6 +271,6 @@ fn main() -> int {
   //assert(options::HTTP09_ALLOWED == (u32) libcurl::CURLOPT_HTTP09_ALLOWED);
   //assert(options::ALTSVC_CTRL == (u32) libcurl::CURLOPT_ALTSVC_CTRL);
   //assert(options::ALTSVC == (u32) libcurl::CURLOPT_ALTSVC);
-  assert(options::MAXAGE_CONN == (u32) libcurl::CURLOPT_MAXAGE_CONN);
+  //assert(options::MAXAGE_CONN == (u32) libcurl::CURLOPT_MAXAGE_CONN);
   return 0;
 }
